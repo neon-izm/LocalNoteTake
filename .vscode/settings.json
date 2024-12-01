@@ -1,0 +1,32 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.enabled": false,
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  "editor.lineHeight": 24,
+  "markdown.copyFiles.destination": {
+    "**/*": "images/"
+  },
+
+  "foam.edit.linkReferenceDefinitions": "withExtensions",
+  "foam.openDailyNote.directory": "1.Daily-Notes",
+  "foam.openDailyNote.filenameFormat": "yyyy/mm/yyyy-mm-dd",
+  "foam.openDailyNote.fileExtension": "md",
+  "foam.openDailyNote.titleFormat": "'日報, 'yyyy-mm-dd dddd ",
+
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    }
+  },
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "files.exclude": {
+    "_site/**": true
+  },
+  "files.insertFinalNewline": true,
+  "markdown.styles": [".vscode/custom-tag-style.css"],
+  "foam.files.newNotePath": "currentDir",
+}
